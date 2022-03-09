@@ -1,0 +1,13 @@
+run_coordinator:
+  module: dagster.core.run_coordinator
+  class: QueuedRunCoordinator
+  config:
+    max_concurrent_runs: 7
+    tag_concurrency_limits:
+      - key: resource
+        value:
+          applyLimitPerUniqueValue: true
+        limit: 25
+python_logs:
+  managed_python_loggers:
+    - etl

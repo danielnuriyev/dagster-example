@@ -1,0 +1,15 @@
+{
+  "install_requires": [
+    "boto3",
+    "dagster",
+    "dagit",
+    "pandas",
+    "pyarrow",
+    "psutil"
+  ],
+  "extras_require": {
+    "mysql": [
+      "mysql-connector==2.2.9"
+    ]
+  }
+}

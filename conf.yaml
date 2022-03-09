@@ -1,0 +1,12 @@
+resources:
+  source:
+    config:
+      host:     "..."
+      user:     "..."
+      password: "..."
+      database: "..."
+      table:    "..."
+  sink:
+    config:
+      bucket:   "name of the s3 bucket without s3://"
+      path:     "..."
