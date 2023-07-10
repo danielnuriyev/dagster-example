@@ -1,5 +1,3 @@
-# Better ETL
-
 ## What it is
 
 This is an example that pipes data from MySQL to S3.
